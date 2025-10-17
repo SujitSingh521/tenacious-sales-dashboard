@@ -15,7 +15,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #6a6666;
   }
 }
 
@@ -23,4 +23,8 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  @apply bg-cover bg-center bg-no-repeat flex justify-center items-center min-h-screen;
+  background-image: url("https://overoffensively-checky-callan.ngrok-free.dev/crm/admin/assets/img/mapbg.jpg");
 }
