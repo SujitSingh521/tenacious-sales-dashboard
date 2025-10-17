@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/tenacious_sales");
-    console.log("MongoDB Connected ✅");
+    await mongoose.connect("mongodb://127.0.0.1:27017/test");
+    console.log("✅ MongoDB Connected");
   } catch (err) {
     console.error(err.message);
     process.exit(1);
