@@ -7,7 +7,7 @@ app.get("/", (req, res) => {
   res
     .status(200)
     .send(
-      '<h1 style="text-align: center;">Welcome to the Tenacious Sales Dashboard Backend!</h1>'
+      '<h2 style="text-align: center;">Welcome to the Tenacious Sales Dashboard Backend!</h2>'
     );
 });
 
